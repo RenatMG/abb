@@ -12,6 +12,14 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -32,6 +40,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="E:\reactProjects\abb\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\reactProjects\abb\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\reactProjects\abb\src\app" />
+      <recent name="E:\reactProjects\abb\src\api" />
+      <recent name="E:\reactProjects\abb\src\store\actions" />
+      <recent name="E:\reactProjects\abb\src\store\reducers" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,11 +65,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603519667336</updated>
-      <workItem from="1603519669478" duration="913000" />
+      <workItem from="1603519669478" duration="16712000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2411" y="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603522084085">
+      <screen x="1920" y="126" width="1920" height="1040" />
+    </state>
+    <state x="2411" y="417" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.126.1920.1040@1920.126.1920.1040" timestamp="1603522084085" />
+    <state x="2543" y="351" width="672" height="678" key="search.everywhere.popup" timestamp="1603528097451">
+      <screen x="1920" y="126" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="351" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.126.1920.1040@1920.126.1920.1040" timestamp="1603528097451" />
   </component>
 </project>
