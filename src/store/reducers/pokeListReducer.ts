@@ -1,4 +1,5 @@
-import {POKE_FETCH_LIST_ERROR, POKE_FETCH_LIST_START, POKE_FETCH_LIST_SUCCESS} from "../actions/actionTypes";
+import {POKE_LIST_FETCH_ERROR, POKE_LIST_FETCH_START, POKE_LIST_FETCH_SUCCESS} from "../actions/pokeList/pokeListTypes";
+
 
 type InitialStateType = {
     list: Array<object>
@@ -31,15 +32,15 @@ const initialState: InitialStateType = {
 };
 
 
-const pokeReducer = (state = initialState, {type, payload}: Action): InitialStateType => {
+const pokeListReducer = (state = initialState, {type, payload}: Action): InitialStateType => {
 
     switch (type) {
-        case POKE_FETCH_LIST_START:
+        case POKE_LIST_FETCH_START:
             return {
                 ...state,
                 loading: true
             };
-        case POKE_FETCH_LIST_SUCCESS:
+        case POKE_LIST_FETCH_SUCCESS:
             let list = payload.results.map((result: Result) => {
                 // if (result) {
                     let id = +result.url
@@ -58,9 +59,10 @@ const pokeReducer = (state = initialState, {type, payload}: Action): InitialStat
                 list,
                 nav,
                 count: payload.count,
+                error: null,
                 loading: false
             };
-        case POKE_FETCH_LIST_ERROR:
+        case POKE_LIST_FETCH_ERROR:
             return {
                 ...state,
                 loading: false,
@@ -70,4 +72,4 @@ const pokeReducer = (state = initialState, {type, payload}: Action): InitialStat
             return state
     }
 };
-export default pokeReducer;
+export default pokeListReducer;

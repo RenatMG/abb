@@ -1,27 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f867a85-8edb-4a69-b30b-e273e5f11fd6" name="Default Changelist" comment="" />
+    <list default="true" id="1f867a85-8edb-4a69-b30b-e273e5f11fd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/abilities/Abilities.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/abilities/ability/Ability.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/pokemons/pokemon/Pokemon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/pokemons/pokemon/components/PokemonAbilitiesList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/abilityList/abilityListActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/abilityList/abilityListSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/abilityList/abilityListTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/abilityDetailReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/pokeDetailReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pokemons/Pokemons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/pokeList/pokeListTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/pokeActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/pokeList/pokeListActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/pokeSelectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/pokeList/pokeListSelectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/pokeReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/pokeListReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/rootReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/rootReducer.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.70342463">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailSelectors.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailActions.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="414">
+                  <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#0#43#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/store/actions/abilityList/abilityListActions.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/App.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/store/actions/abilityList/abilityListSelectors.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="8" selection-start-column="8" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/store/actions/abilityList/abilityListTypes.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/abilities/ability/Ability.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="506">
+                  <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/pokemons/pokemon/Pokemon.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/pages/pokemons/pokemon/Pokemon.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="24" column="29" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="24" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>actionTypes</find>
+      <find>--isolatedModules</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\ReactProjects\abb\src\store</dir>
+      <dir>D:\ReactProjects\abb</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/store/actions/pokeActions.ts" />
+        <option value="$PROJECT_DIR$/src/pages/home/Home.tsx" />
+        <option value="$PROJECT_DIR$/src/store/actions/pokeList/pokeListTypes.ts" />
+        <option value="$PROJECT_DIR$/src/store/reducers/pokeReducer.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetail.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/store/actions/pokeList/pokeListActions.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailTypes.ts" />
+        <option value="$PROJECT_DIR$/src/store/reducers/pokeListReducer.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/pokeList/pokeListSelectors.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailSelectors.ts" />
+        <option value="$PROJECT_DIR$/src/store/reducers/pokeDetailReducer.ts" />
+        <option value="$PROJECT_DIR$/src/pages/detail/Detail.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/pokemons/pokemon/Pokemon.ts" />
+        <option value="$PROJECT_DIR$/src/pages/pokemons/Pokemons.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/pokemons/pokemon/components/PokemonAbilitiesList.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/pokemons/pokemon/components/PokemonAbilitiesList.ts" />
+        <option value="$PROJECT_DIR$/src/pages/abilities/Abilities.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/pokemons/pokemon/components/PokemonAbilitiesList.jsx" />
+        <option value="$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailActions.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailTypes.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailActions.ts" />
+        <option value="$PROJECT_DIR$/src/store/reducers/abilityDetailReducer.ts" />
+        <option value="$PROJECT_DIR$/src/store/reducers/rootReducer.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailSelectors.ts" />
+        <option value="$PROJECT_DIR$/src/pages/pokemons/pokemon/Pokemon.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/abilities/ability/Ability.tsx" />
+        <option value="$PROJECT_DIR$/src/store/actions/abilityList/abilityListActions.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/abilityList/abilityListSelectors.ts" />
+        <option value="$PROJECT_DIR$/src/store/actions/abilityList/abilityListTypes.ts" />
+        <option value="$PROJECT_DIR$/src/app/App.tsx" />
+      </list>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -30,8 +207,141 @@
       </set>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1049" />
+  </component>
   <component name="ProjectId" id="1jJQMSijd1TG9415g5AFgfxMkCx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="abilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="abilities" type="462c0819:PsiDirectoryNode" />
+              <item name="ability" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemons" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemons" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="abilityDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="abilityList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="pokeDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,20 +350,38 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="D:\ReactProjects\abb\node_modules\eslint" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="E:\reactProjects\abb\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\ReactProjects\abb\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\reactProjects\abb\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ReactProjects\abb\src\store\actions" />
+      <recent name="D:\ReactProjects\abb\src\store\actions\pokeList" />
       <recent name="E:\reactProjects\abb\src\app" />
       <recent name="E:\reactProjects\abb\src\api" />
       <recent name="E:\reactProjects\abb\src\store\actions" />
-      <recent name="E:\reactProjects\abb\src\store\reducers" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ReactProjects\abb\src\assets\img" />
+      <recent name="E:\reactProjects\abb\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,8 +394,41 @@
       <option name="presentableId" value="Default" />
       <updated>1603519667336</updated>
       <workItem from="1603519669478" duration="16712000" />
+      <workItem from="1603559402567" duration="13361000" />
+      <workItem from="1603603784588" duration="4524000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17885000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.020134227" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.4014706" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -81,5 +442,235 @@
       <screen x="1920" y="126" width="1920" height="1040" />
     </state>
     <state x="2543" y="351" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.126.1920.1040@1920.126.1920.1040" timestamp="1603528097451" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/App.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/pokeApi.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/pokeList/pokeListTypes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailTypes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/pokeList/pokeListActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#1#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/pokeList/pokeListSelectors.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/pokeListReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/detail/Detail.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/pages/pokemons/Pokemons.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pokemons/pokemon/components/PokemonAbilitiesList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/abilities/Abilities.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pokemons/pokemon/components/PokemonAbilitiesList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailTypes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/pokeDetailReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/abilityDetailReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/rootReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/pokeDetail/pokeDetailSelectors.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pokemons/pokemon/Pokemon.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailSelectors.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/abilities/ability/Ability.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/abilityDetail/abilityDetailActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/abilityList/abilityListSelectors.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/abilityList/abilityListTypes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/abilityList/abilityListActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
