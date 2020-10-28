@@ -1,0 +1,11 @@
+.go-back {
+  padding: 5px 15px;
+  border: 1px solid #f05053;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .05);
+  }
+}

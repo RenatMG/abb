@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import 'antd/dist/antd.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter as Router} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import {Provider} from "react-redux";
 
 import App from "./app/App";
 import {configureStore} from "./store/configureStore";
+import { QueryParamProvider } from 'use-query-params';
 
 const store = configureStore();
 const rootElement = document.getElementById('root');
@@ -14,7 +16,9 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(
     <Provider store={store}>
         <Router>
-            <App/>
+            <QueryParamProvider ReactRouterRoute={Route}>
+                <App/>
+            </QueryParamProvider>
         </Router>
     </Provider>,
     rootElement

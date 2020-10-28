@@ -1,0 +1,109 @@
+.poke-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  @media screen and (max-width: 575px) {
+    flex-wrap: wrap;
+  }
+
+  > li {
+    margin: 2px;
+    list-style: none;
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+    border-radius: 50%;
+    border: 1px solid indianred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    @media screen and (max-width: 575px) {
+      width: 24px;
+      min-width: 24px;
+      height: 24px;
+      font-size: .6rem;
+    }
+    @media screen and (max-width: 330px) {
+      width: 22px;
+      min-width: 22px;
+      height: 22px;
+      font-size: .6rem;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+
+    button {
+      outline: none;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      width: 100%;
+      height: 100%;
+
+      svg {
+        fill: indianred;
+      }
+    }
+
+    &.ant-pagination-item,
+    &.ant-pagination-prev,
+    &.ant-pagination-next {
+      transition: .3s ease-in;
+
+      &:hover {
+        box-shadow: 0px 2px 7px 2px rgba(34, 60, 80, 0.2);
+      }
+    }
+
+    &.ant-pagination-total-text {
+      border: none;
+      width: auto;
+      padding: 0 15px;
+      cursor: default;
+      @media screen and (max-width: 575px) {
+        width: 100%;
+      }
+    }
+
+    &.ant-pagination-jump-next-custom-icon,
+    &.ant-pagination-jump-prev-custom-icon {
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        fill: #f05053;
+      }
+      span{
+        color: #f05053;
+      }
+
+      .ant-pagination-item-link-icon {
+        display: none;
+      }
+
+      .ant-pagination-item-ellipsis {
+        display: block;
+      }
+
+      &:hover {
+        .ant-pagination-item-link-icon {
+          display: block;
+        }
+
+        .ant-pagination-item-ellipsis {
+          display: none;
+        }
+      }
+    }
+  }
+}

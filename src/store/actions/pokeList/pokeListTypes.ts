@@ -1,0 +1,4 @@
+export const POKE_LIST_FETCH_START: string = 'POKE_LIST_FETCH_START';
+export const POKE_LIST_FETCH_SUCCESS: string = 'POKE_LIST_FETCH_SUCCESS';
+export const POKE_LIST_FETCH_ERROR: string = 'POKE_LIST_FETCH_ERROR';
+export const POKE_LIST_SET_PAGE: string = 'POKE_LIST_SET_PAGE';

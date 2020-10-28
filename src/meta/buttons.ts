@@ -1,0 +1,1 @@
+export const HOME_BUTTON: string = 'GO TO POKEMONS';

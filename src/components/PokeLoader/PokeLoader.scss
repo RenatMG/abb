@@ -1,0 +1,49 @@
+.poke-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__ball {
+    transform-origin: 510px 570px;
+    animation: swing-pokeball 1s steps(20) infinite;
+  }
+
+  &__eye{
+  animation: blink 3s forwards infinite;
+  }
+
+  &__text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4em;
+    animation: blink 1.5s ease-in-out infinite;
+    fill: black;
+  }
+}
+
+
+@keyframes swing-pokeball {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes blink {
+  20%, 100% {
+    fill-opacity: 1;
+  }
+  0% {
+    fill-opacity: 1;
+  }
+  10% {
+    fill-opacity: 0;
+  }
+}
+

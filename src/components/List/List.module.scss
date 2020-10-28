@@ -1,0 +1,23 @@
+.list {
+  font-size: 1rem;
+  text-align: left;
+
+  ul {
+    padding: .2rem 1rem;
+    li {
+      list-style: none;
+      text-align: left;
+      padding: .2rem;
+
+      a {
+        color: currentColor;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
