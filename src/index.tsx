@@ -5,10 +5,8 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import {QueryParamProvider} from 'use-query-params';
 import reportWebVitals from './reportWebVitals';
-
 import App from './app/App';
 import {configureStore} from './store/configureStore';
-import reportWebVitals from './reportWebVitals';
 
 const store = configureStore();
 const rootElement = document.getElementById('root');

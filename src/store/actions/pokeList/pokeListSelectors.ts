@@ -1,24 +1,23 @@
 export function getPokeListState(state: any) {
-    return state.pokeList
+    return state.pokeList;
 }
 
 export function getPokeList(state: any) {
-    return getPokeListState(state).list
+    return getPokeListState(state).list;
 }
 
 export function getPokeListPage(state: any) {
-    return getPokeListState(state).page
+    return getPokeListState(state).page;
 }
 
 export function getPokeListLimit(state: any) {
-    return getPokeListState(state).limit
+    return getPokeListState(state).limit;
 }
 
 export function getPokeListTotal(state: any) {
-    return getPokeListState(state).count
+    return getPokeListState(state).count;
 }
 
-
 export function getPokeListLoading(state: any) {
-    return getPokeListState(state).loading
+    return getPokeListState(state).loading;
 }

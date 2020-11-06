@@ -1,9 +1,9 @@
 import {
     ABILITY_DETAIL_FETCH_ERROR,
     ABILITY_DETAIL_FETCH_START,
-    ABILITY_DETAIL_FETCH_SUCCESS
-} from "../actions/abilityDetail/abilityDetailTypes";
-import {IAbilityDetail} from "../../interfaces/abilityInterfaces";
+    ABILITY_DETAIL_FETCH_SUCCESS,
+} from '../actions/abilityDetail/abilityDetailTypes';
+import {IAbilityDetail} from '../../interfaces/abilityInterfaces';
 
 type Action = {
     type: string
@@ -23,17 +23,17 @@ const initialState = {
         effectEntries: {
             effect: '',
             shortEffect: '',
-        }
+        },
     },
     loading: false,
-    error: null
+    error: null,
 };
 const abilityDetailReducer = (state = initialState, {type, payload}: Action): InitialStateType => {
     switch (type) {
         case ABILITY_DETAIL_FETCH_START:
             return {
                 ...state,
-                loading: true
+                loading: true,
             };
         case ABILITY_DETAIL_FETCH_SUCCESS:
             const {id, name, effect_entries, generation, pokemon} = payload;
@@ -41,7 +41,7 @@ const abilityDetailReducer = (state = initialState, {type, payload}: Action): In
             let pokemonList = pokemon.map((item: any, idx: number) => {
                 let id = idx + 1;
                 let name = item.pokemon.name;
-                return {id, name, link: `/pokemons/${name}`}
+                return {id, name, link: `/pokemons/${name}`};
             })
             return {
                 ...state,
@@ -54,17 +54,17 @@ const abilityDetailReducer = (state = initialState, {type, payload}: Action): In
                     generation: generation.name,
                     effectEntries: {
                         effect: effectEntries.effect,
-                        shortEffect: effectEntries.short_effect
-                    }
-                }
+                        shortEffect: effectEntries.short_effect,
+                    },
+                },
             };
         case ABILITY_DETAIL_FETCH_ERROR:
             return {
                 ...state,
-                error: payload.error
+                error: payload.error,
             }
         default:
-            return state
+            return state;
     }
 };
 export default abilityDetailReducer;

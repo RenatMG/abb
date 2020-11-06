@@ -1,17 +1,20 @@
 import React, {useEffect} from 'react';
-import {useDispatch, useSelector} from "react-redux";
-import {NumberParam, useQueryParams} from "use-query-params";
-import {List, PokeLoader, PokePagination} from "../../components";
-import {Page} from "../../layouts";
-import {TITLE_ABILITIES,} from "../../meta/titles";
-
-import {fetchAbilityList, setAbilityListPage} from "../../store/actions/abilityList/abilityListActions";
+import {useDispatch, useSelector} from 'react-redux';
+import {NumberParam, useQueryParams} from 'use-query-params';
+import {List, PokeLoader, PokePagination} from '../../components';
+import {Page} from '../../layouts';
+import {
+    TITLE_ABILITIES,
+} from '../../meta/titles';
+import {
+    fetchAbilityList, setAbilityListPage,
+} from '../../store/actions/abilityList/abilityListActions';
 import {
     getAbilityList,
     getAbilityListLoading,
     getAbilityListPage,
-    getAbilityListTotal
-} from "../../store/actions/abilityList/abilityListSelectors";
+    getAbilityListTotal,
+} from '../../store/actions/abilityList/abilityListSelectors';
 
 const Abilities: React.FC = () => {
     const dispatch = useDispatch();
@@ -32,26 +35,24 @@ const Abilities: React.FC = () => {
         } else {
             dispatch(setAbilityListPage(1));
         }
-
     }, [dispatch, page, query, setQuery]);
 
-    const pagOnChangeHandler = (page: number, pageSize: number | undefined) => {
-        dispatch(setAbilityListPage(page));
+    const pagOnChangeHandler = (pageCurrent: number, pageSize: number | undefined) => {
+        dispatch(setAbilityListPage(pageCurrent));
     };
 
     if (loading) {
-        return <PokeLoader/>
+        return <PokeLoader/>;
     }
 
     return (
         <Page title={TITLE_ABILITIES}>
             <div className="container">
-                <List title={'Способности'} list={list}/>
+                <List title="Способности" list={list}/>
                 <PokePagination total={total} page={page} onChange={pagOnChangeHandler}/>
             </div>
         </Page>
     );
 };
-
 
 export default Abilities;

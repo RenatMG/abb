@@ -17,5 +17,4 @@ const Page: React.FC<Params> = ({children, title}) => {
     );
 };
 
-
 export default Page;

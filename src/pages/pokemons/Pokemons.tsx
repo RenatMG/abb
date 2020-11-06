@@ -34,11 +34,9 @@ const Pokemons: React.FC = () => {
         } else {
             dispatch(setPokeListPage(1));
         }
-
     }, [dispatch, page, query, setQuery]);
-
-    const pagOnChangeHandler = (page: number, pageSize: number | undefined) => {
-        dispatch(setPokeListPage(page));
+    const pagOnChangeHandler = (pageCurrent: number, pageSize: number | undefined) => {
+        dispatch(setPokeListPage(pageCurrent));
     }
     if (loading) {
         return <PokeLoader/>;

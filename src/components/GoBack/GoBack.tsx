@@ -5,7 +5,7 @@ import {useHistory} from 'react-router-dom';
 const GoBack: React.FC = () => {
     const history = useHistory();
     return (
-        <div className='go-back' onClick={history.goBack}>
+        <div className="go-back" onClick={history.goBack}>
             Назад
         </div>
     );

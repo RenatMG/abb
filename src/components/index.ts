@@ -6,4 +6,4 @@ import PokeImage from './PokeImage/PokeImage';
 import List from './List/List';
 import GoBack from './GoBack/GoBack';
 
-export {PokeBallIcon, PokeButton, PokeLoader, PokePagination, PokeImage, List, GoBack}
+export {PokeBallIcon, PokeButton, PokeLoader, PokePagination, PokeImage, List, GoBack};

@@ -1,11 +1,16 @@
 import React from 'react';
-import './PokeLoader.scss'
+import './PokeLoader.scss';
 
 const PokeLoader: React.FC = () => {
     return (
         <div className="poke-loader">
-            <svg width="220" height="220" viewBox="0 0 500 800" role="img"
-                 aria-labelledby="title  desc">
+            <svg
+                width="220"
+                height="220"
+                viewBox="0 0 500 800"
+                role="img"
+                 aria-labelledby="title  desc"
+            >
                 <text className="poke-loader__text" x="175" y="775">Loading...</text>
                 <ellipse opacity=".056" fill="#6A7A76" cx="276.7" cy="667.4" rx="241.2" ry="47"/>
                 <ellipse opacity=".111" fill="#667672" cx="276.7" cy="667.4" rx="227.1" ry="44.3"/>

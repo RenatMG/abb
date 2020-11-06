@@ -1,6 +1,6 @@
 import React from 'react';
-import './PokeImage.scss'
-import ph from "../../assets/img/ph.png";
+import './PokeImage.scss';
+import ph from '../../assets/img/ph.png';
 
 interface IPokeImage {
     src: string,
@@ -9,13 +9,12 @@ interface IPokeImage {
 }
 
 const PokeImage: React.FC<IPokeImage> = ({src, name, size = 'md'}) => {
-
     const onErrorImg = (e: React.SyntheticEvent<HTMLImageElement>) => {
         e.currentTarget.src = ph;
     };
 
     return (
-        <div className='poke-image'>
+        <div className="poke-image">
             <img
                 onError={onErrorImg}
                 src={src}

@@ -13,9 +13,12 @@
     "@types/react-helmet": "^6.1.0",
     "@types/react-redux": "^7.1.9",
     "@types/react-router-dom": "^5.1.6",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
     "antd": "^4.7.3",
     "axios": "^0.21.0",
-    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-scope": "^5.1.1",
     "node-sass": "^4.14.1",
     "npm-check-updates": "^9.2.2",
     "query-string": "^6.13.6",
@@ -57,5 +60,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "6.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "eslint-plugin-testing-library": "^3.10.0",
+    "prettier": "^2.1.2"
   }
 }

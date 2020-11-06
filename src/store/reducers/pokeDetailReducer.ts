@@ -1,9 +1,9 @@
 import {
     POKE_DETAIL_FETCH_ERROR,
     POKE_DETAIL_FETCH_START,
-    POKE_DETAIL_FETCH_SUCCESS
-} from "../actions/pokeDetail/pokeDetailTypes";
-import {IPokemonDetail} from "../../interfaces/pokeInterfaces";
+    POKE_DETAIL_FETCH_SUCCESS,
+} from '../actions/pokeDetail/pokeDetailTypes';
+import {IPokemonDetail} from '../../interfaces/pokeInterfaces';
 
 type InitialStateType = {
     pokemon: IPokemonDetail
@@ -22,20 +22,18 @@ const initialState: InitialStateType = {
         types: [],
         abilities: [],
         characteristic: [],
-        img: null
+        img: null,
     },
     loading: false,
-    error: null
+    error: null,
 };
 
-
 const pokeDetailReducer = (state = initialState, {type, payload}: Action): InitialStateType => {
-
     switch (type) {
         case POKE_DETAIL_FETCH_START:
             return {
                 ...state,
-                loading: true
+                loading: true,
             };
         case POKE_DETAIL_FETCH_SUCCESS:
             const {id, name, types, abilities, weight, height, base_experience} = payload;
@@ -49,7 +47,7 @@ const pokeDetailReducer = (state = initialState, {type, payload}: Action): Initi
             let characteristicList = [
                 {
                     id: 1,
-                    name: `Вес ${weight}`
+                    name: `Вес ${weight}`,
                 },
                 {
                     id: 2,
@@ -66,22 +64,22 @@ const pokeDetailReducer = (state = initialState, {type, payload}: Action): Initi
                 types: typesList,
                 abilities: abilitiesList,
                 characteristic: characteristicList,
-                img: `https://pokeres.bastionbot.org/images/pokemon/${id}.png`
+                img: `https://pokeres.bastionbot.org/images/pokemon/${id}.png`,
             };
             return {
                 ...state,
                 pokemon,
                 error: null,
-                loading: false
+                loading: false,
             };
         case POKE_DETAIL_FETCH_ERROR:
             return {
                 ...state,
                 loading: false,
-                error: payload.error
+                error: payload.error,
             };
         default:
-            return state
+            return state;
     }
 };
 export default pokeDetailReducer;

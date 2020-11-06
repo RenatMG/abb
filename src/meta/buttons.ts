@@ -1,1 +1,1 @@
-export const HOME_BUTTON: string = 'GO TO POKEMONS';
+export const HOME_BUTTON = 'GO TO POKEMONS';

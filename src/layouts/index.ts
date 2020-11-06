@@ -1,3 +1,3 @@
-import Page from './Page/Page'
+import Page from './Page/Page';
 
 export {Page};

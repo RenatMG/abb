@@ -1,5 +1,5 @@
 import React from 'react';
-import './PokeButton.scss'
+import './PokeButton.scss';
 
 interface IButtonProps {
     onClick: () => void
