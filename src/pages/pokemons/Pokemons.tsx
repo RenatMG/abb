@@ -1,24 +1,20 @@
 import React, {useEffect} from 'react';
-import {Page} from "../../layouts";
-
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch, useSelector} from 'react-redux';
 import {
     useQueryParams,
     NumberParam,
 } from 'use-query-params';
+import {Page} from '../../layouts';
 
 import {
     getPokeListLoading,
     getPokeListPage,
-    getPokeListTotal
-} from "../../store/actions/pokeList/pokeListSelectors";
-import {fetchPokeList, setPokeListPage} from "../../store/actions/pokeList/pokeListActions";
-
+    getPokeListTotal,
+} from '../../store/actions/pokeList/pokeListSelectors';
+import {fetchPokeList, setPokeListPage} from '../../store/actions/pokeList/pokeListActions';
 import {PokeLoader, PokePagination} from '../../components';
-import {APP_TITLE, TITLE_POKEMONS} from "../../meta/titles";
-import {PokeList} from "../../features";
-
-
+import {PokeList} from '../../features';
+import {APP_TITLE, TITLE_POKEMONS} from '../../meta/titles';
 
 const Pokemons: React.FC = () => {
     const dispatch = useDispatch();
@@ -44,13 +40,9 @@ const Pokemons: React.FC = () => {
     const pagOnChangeHandler = (page: number, pageSize: number | undefined) => {
         dispatch(setPokeListPage(page));
     }
-
-
     if (loading) {
-        return <PokeLoader/>
+        return <PokeLoader/>;
     }
-
-
     return (
         <Page title={`${TITLE_POKEMONS} | ${APP_TITLE}`}>
             <PokeList/>

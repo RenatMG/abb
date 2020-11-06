@@ -4,6 +4,7 @@
   width: fit-content;
   cursor: pointer;
   border-radius: 3px;
+  user-select: none;
 
   &:hover {
     background-color: rgba(0, 0, 0, .05);
